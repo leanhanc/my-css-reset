@@ -1,17 +1,3 @@
-Whenever I start a new project, the first order of business is to sand down some of the rough edges in the CSS language. I do this with a functional set of custom baseline styles.
-
-For a long time, I used Eric Meyer's famous CSS Reset. It's a solid chunk of CSS, but it's a bit long in the tooth at this point; it hasn't been updated in more than a decade, and a lot has changed since then!
-
-Recently, I've been using my own custom CSS reset. It includes all of the little tricks I've discovered to improve both the user experience and the CSS authoring experience.
-
-Like other CSS resets, it's unopinionated when it comes to design / cosmetics. You can use this reset for any project, no matter the aesthetic you're going for.
-
-In this tutorial, we'll go on a tour of my custom CSS reset. We'll dig into each rule, and you'll learn what it does and why you might want to use it!
-
-Link to this headingThe CSS Reset
-Without further ado, here it is:
-
-CSS
 /*
   1. Use a more-intuitive box-sizing model.
 */
