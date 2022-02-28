@@ -5,11 +5,12 @@
   box-sizing: border-box;
 }
 /*
-  2. Remove default margins and paddings
+  2. Remove default margin, paddings and webkkit higlight
 */
 * {
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 /*
   3. Allow percentage-based heights in the application
@@ -40,6 +41,7 @@ img, picture, video, canvas, svg {
 */
 input, button, textarea, select {
   font: inherit;
+  vertical-align: text-top
 }
 /*
   9. Avoid text overflows
