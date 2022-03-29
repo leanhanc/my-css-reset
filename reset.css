@@ -44,10 +44,11 @@ input, button, textarea, select {
   vertical-align: text-top
 }
 /*
-  9. Avoid text overflows
+  9. Avoid text overflows and remove some header styles
 */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  font-weight: normal;
 }
 /*
   10. Create a root stacking context
