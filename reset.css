@@ -55,3 +55,19 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*
+    11. Remove built-in button styles
+*/
+button {
+	border: 0;
+	background: none;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	text-align: inherit;
+}
+
+button:disabled {
+	cursor: default;
+}
